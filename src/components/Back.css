@@ -1,0 +1,24 @@
+#back-btn {
+  color: white;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  height: 2rem;
+  width: 3rem;
+  background: rgb(107, 164, 221);
+  box-shadow: 1px 1px 8px 1px rgb(52, 51, 51);
+  cursor: pointer;
+}
+
+#back-btn:hover {
+  color: white;
+  background: rgb(194, 166, 129);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  #back-btn {
+    margin-bottom: 0.25rem;
+    margin-left: 1.5rem;
+  }
+}

@@ -1,0 +1,23 @@
+.scroll-to-top img {
+  background: transparent;
+}
+
+#up {
+  height: 3rem;
+  width: 3rem;
+  padding: 1px;
+  padd: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+#up:hover {
+  background: rgb(194, 166, 129);
+
+  cursor: pointer;
+}
+
+.pic-container {
+  background: rgb(107, 164, 221);
+  height: 3rem;
+  width: 3rem;
+}
