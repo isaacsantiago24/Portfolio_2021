@@ -11,7 +11,7 @@ function Footer() {
         HTML, CSS{" "}
       </h5>
       <a
-        href="https://github.com/isaacsantiago24/Data-Structures"
+        href="https://github.com/isaacsantiago24/Portfolio_2021"
         target="_blank"
         title="Portfolio Repository"
         id="link"
