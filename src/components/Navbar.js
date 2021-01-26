@@ -50,7 +50,7 @@ function Navbar() {
               className="navbar-logo"
               title="LinkedIn"
             >
-              <img src={linkedin} alt="linkedin" class="social-icons" />
+              <img src={linkedin} alt="linkedin" className="social-icons" />
             </a>
 
             <a
@@ -59,7 +59,7 @@ function Navbar() {
               className="navbar-logo"
               title="GitHub"
             >
-              <img src={github} alt="github" class="social-icons" />
+              <img src={github} alt="github" className="social-icons" />
             </a>
             <a
               href="https://www.behance.net/isaacsantiago1"
@@ -67,7 +67,7 @@ function Navbar() {
               className="navbar-logo"
               title="Behance"
             >
-              <img src={behance} alt="behance" class="social-icons" />
+              <img src={behance} alt="behance" className="social-icons" />
             </a>
             {/* <a
               href="https://www.instagram.com/isaacsdesign/?hl=en"
@@ -86,7 +86,7 @@ function Navbar() {
               <img
                 src={resumeicon}
                 alt="resume"
-                class="social-icons"
+                className="social-icons"
                 title="Resume"
               />
             </a>
