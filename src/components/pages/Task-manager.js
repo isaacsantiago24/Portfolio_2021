@@ -73,18 +73,18 @@ export default function taskWork() {
 
       <img src={taskboard} alt="" class="center" />
       <section className="image-container-2">
-        <img src={taskadd} alt="desert" />
+        <img src={taskadd} alt="desert" class="center" />
       </section>
       {/* //////////////////////////////////////////////////////////// */}
       <section className="image-container-2">
-        <img src={taskdrag} alt="task drag items" />
+        <img src={taskdrag} alt="task drag items" class="center" />
       </section>
       <section className="image-container">
         <img src={task1} alt="ipad" />
         <img src={task2} alt="iphone" />
       </section>
       <section className="image-container-2">
-        <img src={complete2} alt="complete tasks" />
+        <img src={complete2} alt="complete tasks" class="center" />
       </section>
     </>
   );

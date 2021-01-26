@@ -64,21 +64,21 @@ export default function AztecRecreationCenter() {
 
       <img src={poster} alt="" class="center" />
       <section className="image-container-2">
-        <img src={flyer} alt="desert" />
+        <img src={flyer} alt="desert" class="center" />
       </section>
       {/* //////////////////////////////////////////////////////////// */}
       <section className="image-container">
-        <img src={wallposter2} alt="desert" />
-        <img src={lockerposter} alt="desert" />
+        <img src={wallposter2} alt="poster" />
+        <img src={lockerposter} alt="poster" />
       </section>
       <section className="image-container-2">
-        <img src={smores2} alt="desert" />
+        <img src={smores2} alt="flyers" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={tvslides} alt="desert" />
+        <img src={tvslides} alt="tv slides" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={events} alt="desert" />
+        <img src={events} alt="flyers" class="center" />
       </section>
     </>
   );

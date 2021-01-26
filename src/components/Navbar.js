@@ -77,7 +77,12 @@ function Navbar() {
             >
               <img src={instagram} alt="instagram" class="social-icons" />
             </a> */}
-            <a href={pdf} target="_blank" className="navbar-logo">
+            <a
+              href={pdf}
+              rel="noreferrer"
+              target="_blank"
+              className="navbar-logo"
+            >
               <img
                 src={resumeicon}
                 alt="resume"

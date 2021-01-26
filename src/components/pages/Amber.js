@@ -74,7 +74,7 @@ export default function AmberWork() {
 
       <img src={amber1} alt="Amber-cover" class="center" />
       <section className="image-container-2">
-        <img src={amber2} alt="Amber" />
+        <img src={amber2} alt="Amber" class="center" />
       </section>
       <section className="image-container">
         <img src={iphone} alt="iphone" />
@@ -83,7 +83,7 @@ export default function AmberWork() {
       {/* //////////////////////////////////////////////////////////// */}
 
       <section className="image-container-2">
-        <img src={amber3} alt="Amber" />
+        <img src={amber3} alt="Amber" class="center" />
       </section>
     </>
   );

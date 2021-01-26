@@ -59,7 +59,7 @@ export default function BredGiversWork() {
 
       <img src={cover} alt="Design process" class="center" />
       <section className="image-container-2">
-        <img src={logo} alt="Logo exploration" />
+        <img src={logo} alt="Logo exploration" class="center" />
       </section>
       {/* //////////////////////////////////////////////////////////// */}
       {/* <section className="image-container">
@@ -67,10 +67,10 @@ export default function BredGiversWork() {
         <img src={lockerposter} alt="desert" />
       </section> */}
       <section className="image-container-2">
-        <img src={bookcover} alt="Cover design process" />
+        <img src={bookcover} alt="Cover design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={bookdesign} alt="Bread Givers book cover" />
+        <img src={bookdesign} alt="Bread Givers book cover" class="center" />
       </section>
     </>
   );

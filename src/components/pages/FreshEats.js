@@ -78,7 +78,7 @@ export default function FreshEatsWork() {
 
       <img src={logoprocess} alt="Design process" class="center" />
       <section className="image-container-2">
-        <img src={finallogo} alt="Logo exploration" />
+        <img src={finallogo} alt="Logo exploration" class="center" />
       </section>
       {/* //////////////////////////////////////////////////////////// */}
       {/* <section className="image-container">
@@ -86,16 +86,16 @@ export default function FreshEatsWork() {
         <img src={office2} alt="desert" />
       </section> */}
       <section className="image-container-2">
-        <img src={process2} alt="Design process" />
+        <img src={process2} alt="Design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={website} alt="Fresh Eats Website" />
+        <img src={website} alt="Fresh Eats Website" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={target} alt="Personas" />
+        <img src={target} alt="Personas" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={menu} alt="Fresh Eats Menu" />
+        <img src={menu} alt="Fresh Eats Menu" class="center" />
       </section>
     </>
   );

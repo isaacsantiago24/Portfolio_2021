@@ -63,7 +63,7 @@ export default function EnvisualWork() {
 
       <img src={envisuallogo} alt="Design process" class="center" />
       <section className="image-container-2">
-        <img src={logoprocess} alt="Logo exploration" />
+        <img src={logoprocess} alt="Logo exploration" class="center" />
       </section>
       {/* <section className="image-container-2">
         <img src={mood} alt="Moodboard" />
@@ -74,16 +74,16 @@ export default function EnvisualWork() {
         <img src={office2} alt="desert" />
       </section>
       <section className="image-container-2">
-        <img src={stationary} alt="Cover design process" />
+        <img src={stationary} alt="Cover design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={envelope} alt="Cover design process" />
+        <img src={envelope} alt="Cover design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={bizcard} alt="Cover design process" />
+        <img src={bizcard} alt="Cover design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={flyers} alt="Bread Givers book cover" />
+        <img src={flyers} alt="Bread Givers book cover" class="center" />
       </section>
     </>
   );

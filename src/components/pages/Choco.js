@@ -59,7 +59,7 @@ export default function ChocoWork() {
 
       <img src={chocoprocess} alt="Design process" class="center" />
       <section className="image-container-2">
-        <img src={chocos} alt="Chocolates" />
+        <img src={chocos} alt="Chocolates" class="center" />
       </section>
       {/* //////////////////////////////////////////////////////////// */}
       {/* <section className="image-container">
@@ -67,13 +67,13 @@ export default function ChocoWork() {
         <img src={office2} alt="desert" />
       </section> */}
       <section className="image-container-2">
-        <img src={packages} alt="three packages design" />
+        <img src={packages} alt="three packages design" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={inhand} alt="Cover design process" />
+        <img src={inhand} alt="Cover design process" class="center" />
       </section>
       <section className="image-container-2">
-        <img src={backdesign} alt="Back design" />
+        <img src={backdesign} alt="Back design" class="center" />
       </section>
     </>
   );
