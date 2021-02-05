@@ -8,6 +8,7 @@ import stationary from "../../images/envisual/front.jpg";
 import flyers from "../../images/envisual/flyers.jpg";
 import envelope from "../../images/envisual/envelope.jpg";
 import bizcard from "../../images/envisual/bizcard.jpg";
+import figma from "../../images/envisual/env-fig.jpg";
 // import mood from "../../images/envisual/moodboard2.jpg";
 import Back from "../Back";
 import "../Back.css";
@@ -55,6 +56,7 @@ export default function EnvisualWork() {
               <li className="list">Adobe Illustrator</li>
               <li className="list">Adobe Photoshop</li>
               <li className="list">Adobe Lightroom</li>
+              <li className="list">Figma</li>
             </ul>
           </div>
         </section>
@@ -72,6 +74,9 @@ export default function EnvisualWork() {
       <section className="image-container">
         <img src={office1} alt="desert" />
         <img src={office2} alt="desert" />
+      </section>
+      <section className="image-container-2">
+        <img src={figma} alt="Landing Figma Page" class="center" />
       </section>
       <section className="image-container-2">
         <img src={stationary} alt="Cover design process" class="center" />
