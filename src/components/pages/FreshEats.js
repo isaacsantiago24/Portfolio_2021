@@ -9,6 +9,7 @@ import website from "../../images/fresheats/cover1bb.jpg";
 import github from "../../icons/github2.png";
 import web from "../../icons/global2.png";
 import Back from "../Back";
+import uxui from "../../images/fresheats/fresh-ux.jpg";
 import "../Back.css";
 
 export default function FreshEatsWork() {
@@ -66,6 +67,7 @@ export default function FreshEatsWork() {
               <li className="list">Adobe Illustrator</li>
               <li className="list">Adobe Photoshop</li>
               <li className="list">Adobe Lightroom</li>
+              <li className="list">Figma</li>
               <li className="list">HTML</li>
 
               <li className="list">CSS</li>
@@ -90,6 +92,9 @@ export default function FreshEatsWork() {
       </section>
       <section className="image-container-2">
         <img src={website} alt="Fresh Eats Website" class="center" />
+      </section>
+      <section className="image-container-2">
+        <img src={uxui} alt="mobile design" class="center" />
       </section>
       <section className="image-container-2">
         <img src={target} alt="Personas" class="center" />
