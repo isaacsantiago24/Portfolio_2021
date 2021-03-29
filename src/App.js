@@ -13,6 +13,7 @@ import MusicPlayer from "./components/pages/MusicPlayer";
 import FreshEatsWork from "./components/pages/FreshEats";
 import ChocoWork from "./components/pages/Choco";
 import AmberWork from "./components/pages/Amber";
+import PowerpointWork from "./components/pages/Powerpoint";
 import covidWork from "./components/pages/Covid";
 import taskWork from "./components/pages/Task-manager";
 
@@ -42,7 +43,7 @@ function App() {
           <Route path="/fresh-eats" exact component={FreshEatsWork} />
           <Route path="/choco" exact component={ChocoWork} />
 
-          <Route path="/amber-gray-photography" exact component={AmberWork} />
+          <Route path="/powerpoint-design" exact component={PowerpointWork} />
         </Switch>
       </Router>
       <Footer />

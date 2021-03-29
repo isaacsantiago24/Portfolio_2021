@@ -11,6 +11,7 @@ import amber from "../images/amber/acover.jpg";
 import musicplayer2 from "../images/musicplayer.jpg";
 import covidCover from "../images/covid/covid19-cover.jpg";
 import taskcover from "../images/task/task-cover5.jpg";
+import powerpointcover from "../images/powerpoint/powerpoint-cover.jpg";
 ////////////
 function Cards() {
   return (
@@ -61,6 +62,18 @@ function Cards() {
             />
           </ul>
           <ul className="cards__items">
+            {/* <CardItem
+              src={amber}
+              text="A portfolio to showcase photography of Amber Gray built with HTML, CSS."
+              label="Photography Portfolio"
+              path="/amber-gray-photography"
+            /> */}
+            <CardItem
+              src={powerpointcover}
+              text="A PowerPoint template created using Microsoft PowerPoint."
+              label="Powerpoint Design"
+              path="/powerpoint-design"
+            />
             <CardItem
               src={bredcover}
               text="Re-branding project focused on the book Bread Givers by Anzia Yezierska."
@@ -72,12 +85,6 @@ function Cards() {
               text="Choco is a package design project that focuses on fair trade products. "
               label="Package Design"
               path="/choco"
-            />
-            <CardItem
-              src={amber}
-              text="A portfolio to showcase photography of Amber Gray built with HTML, CSS."
-              label="Photography Portfolio"
-              path="/amber-gray-photography"
             />
           </ul>
         </div>
