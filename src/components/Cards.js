@@ -71,7 +71,7 @@ function Cards() {
             <CardItem
               src={powerpointcover}
               text="A PowerPoint template created using Microsoft PowerPoint."
-              label="Powerpoint Design"
+              label="PowerPoint Design"
               path="/powerpoint-design"
             />
             <CardItem
